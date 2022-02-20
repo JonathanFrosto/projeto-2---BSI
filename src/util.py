@@ -1,4 +1,7 @@
-def strip_words(iterable: list[str]) -> list[str]:
+from typing import List
+
+
+def strip_words(iterable: List[str]) -> List[str]:
     return [word.strip() for word in iterable]
 
 
